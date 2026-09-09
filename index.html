@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Mohamed Arif | IT Student</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#080b14;color:#fff;line-height:1.6}
+nav{position:sticky;top:0;z-index:100;display:flex;justify-content:space-between;
+align-items:center;padding:18px 8%;background:#0b0f1cdd;backdrop-filter:blur(12px)}
+nav h2{color:#38bdf8}
+nav a{color:#ddd;text-decoration:none;margin-left:22px}
+nav a:hover{color:#38bdf8}
+.hero{min-height:90vh;display:flex;flex-direction:column;justify-content:center;
+align-items:center;text-align:center;padding:50px 20px;
+background:radial-gradient(circle at top,#12335a,#080b14 55%)}
+.hero h1{font-size:55px}
+.hero h1 span{color:#38bdf8}
+.hero h3{color:#a5b4fc;margin:10px}
+.hero p{max-width:650px;color:#bbb;margin:15px}
+.btn{display:inline-block;background:#38bdf8;color:#06111c;
+padding:12px 22px;border-radius:25px;text-decoration:none;margin:8px;
+font-weight:bold;transition:.3s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 8px 25px #38bdf855}
+section{padding:80px 8%;text-align:center}
+section h2{font-size:35px;color:#38bdf8;margin-bottom:30px}
+.about{max-width:750px;margin:auto;color:#bbb}
+.cards{display:flex;justify-content:center;gap:20px;flex-wrap:wrap}
+.card{width:250px;padding:28px;background:#111827;border:1px solid #263244;
+border-radius:15px;transition:.3s}
+.card:hover{transform:translateY(-8px);border-color:#38bdf8}
+.card h3{color:#fff;margin-bottom:10px}
+.card p{color:#aaa}
+.project a{margin-top:15px}
+.contact p{color:#bbb;margin:8px}
+.contact strong{color:#38bdf8}
+footer{padding:25px;text-align:center;background:#05070d;color:#888}
+@media(max-width:650px){
+nav{flex-direction:column;gap:12px}
+nav a{margin:5px;font-size:14px}
+.hero h1{font-size:38px}
+section{padding:60px 5%}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<h2>Mohamed Arif</h2>
+<div>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<section class="hero" id="home">
+<h3>WELCOME TO MY PORTFOLIO</h3>
+<h1>Hi, I'm <span>Mohamed Arif</span></h1>
+<p>
+I'm a 2nd-year IT student passionate about Web Development,
+UI/UX Design and learning new technologies.
+</p>
+<div>
+<a class="btn" href="#projects">View Projects</a>
+<a class="btn" href="https://github.com/mohamedarif2008" target="_blank">
+GitHub
+</a>
+</div>
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<p class="about">
+I'm an Information Technology student who enjoys creating websites,
+learning programming and exploring modern technologies. My goal is
+to improve my development skills by building real-world projects.
+</p>
+</section>
+
+<section id="skills">
+<h2>My Skills</h2>
+<div class="cards">
+<div class="card"><h3>HTML & CSS</h3>
+<p>Responsive and modern website development.</p></div>
+
+<div class="card"><h3>JavaScript</h3>
+<p>Learning JavaScript and interactive web development.</p></div>
+
+<div class="card"><h3>C++</h3>
+<p>Programming, OOP and problem-solving fundamentals.</p></div>
+
+<div class="card"><h3>UI / UX</h3>
+<p>Simple, clean and user-friendly interface design.</p></div>
+</div>
+</section>
+
+<section id="projects">
+<h2>My Projects</h2>
+<div class="cards">
+
+<div class="card project">
+<h3>Personal Portfolio</h3>
+<p>My responsive portfolio website built using HTML and CSS.</p>
+<a class="btn" href="https://mohamedarif2008.github.io/MyProtfolio/"
+target="_blank">Live Demo</a>
+</div>
+
+<div class="card project">
+<h3>Web Development</h3>
+<p>A responsive website project created with HTML and CSS.</p>
+<a class="btn" href="#" target="_blank">View Project</a>
+</div>
+
+<div class="card project">
+<h3>JavaScript Project</h3>
+<p>An interactive beginner project using JavaScript.</p>
+<a class="btn" href="#" target="_blank">View Project</a>
+</div>
+
+</div>
+</section>
+
+<section class="contact" id="contact">
+<h2>Let's Connect</h2>
+
+<p><strong>Email:</strong>
+mohamedarifabdhul2008@gmail.com</p>
+
+<p><strong>GitHub:</strong>
+mohamedarif2008</p>
+
+<a class="btn" href="mailto:mohamedarifabdhul2008@gmail.com">
+Email Me
+</a>
+
+<a class="btn" href="https://github.com/mohamedarif2008"
+target="_blank">Visit GitHub</a>
+</section>
+
+<footer>
+<p>© 2026 Mohamed Arif | IT Student</p>
+</footer>
+
+</body>
+</html>
